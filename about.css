@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+}
+.page{
+    width: 80vw;
+    background-color: whitesmoke;
+    height: 100vh;
+    margin-left: 10vw;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3); 
+    border-radius: 10px; /* Add border-radius for the bulge effect */
+}
+.navbar{
+    background-color:  #f4e1d269;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 80px;
+    
+    
+}
+.tag{
+    color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-right: 50px;
+    font-size: larger;
+    font-family: palatino;
+
+}
+a{
+    text-decoration: none;
+    color: #a52a2aa6;
+}
+.title{
+    margin-left: 50px;
+    margin-top: 20px;
+   
+}
+.About{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+
+}
+.details{
+
+    height: 55vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+}
+.social-media{
+    height: 70vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+
+}
+.photo{
+    
+    background-color: whitesmoke;
+}
+.my-intro{
+    margin-right: 15vw;
+    background-color: #b2b2b2;
+    text-align: left;
+    height: 55vh;
+    
+}
+.my-intro h1{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.my-intro p{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.insta{
+    margin-top: 20px;
+    background-color: #b2b2b2;
+    margin-left: 40px;
+    text-align: center;
+}
+/* .box{
+
+    z-index: 100;
+    top: 30%;
+    margin-left: 22vw;
+    width: 28vw;
+    height: 25vh;
+    position: absolute;
+    background-color: #f4e1d2;
+
+} */
+.photo img{
+    margin-left: 100px;
+}
+.touch{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+input{
+    width: 25vw;
+    height: 5vh;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+button{
+    width: 7vw;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: vw;
+    border-radius: 10px;
+}
+textarea{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
